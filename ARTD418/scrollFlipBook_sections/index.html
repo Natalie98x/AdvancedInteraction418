@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Bootstrap Example</title>
+
+  <meta charset="UTF-8">
+
+  <!-- To ensure proper rendering and touch zooming on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootsatrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- JS libraries -->
+  <script src="libs/p5.js" type="text/javascript"></script>
+  <script src="libs/p5.dom.js" type="text/javascript"></script>
+
+  <!-- javaScript -->
+  <script type="text/javascript" src="javaScriptCode/p5_test.js"></script>
+
+  <!-- css style -->
+  <link rel="stylesheet" href=css/scrollFlipbook.css>
+
+  <!-- style -->
+  <style>
+    .affix {
+        bottom: -20px;
+        z-index: 9999 !important;
+    }
+
+    .affix + .container-fluid {
+        padding-top: 70px;
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <div class="container">
+
+    <!-- Navigation bar-->
+    <nav class="navbar navbar-default" data-spy="affix">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Scroll Flipbook</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#a1">Section A1</a></li>
+          <li><a href="#a2">Section A2</a></li>
+          <li><a href="#a3">Section A3</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- rows and columns-->
+
+    <div class="row">
+
+      <!-- Left Column -->
+      
+      <div class="col-sm-2">
+        <header>
+          <h3>Scroll Flip-Book</h3>
+          <p>Based on <a href="http://andrevv.com/">andrevv.com</a></p>
+          <p>Source: <a href="https://codepen.io/derekjp/pen/mHFkd">codepen</a></p></h3>
+        </header>
+        
+        <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#E82625;stroke-width:4;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#F89A41;stroke-width:4;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FDEE1E;stroke-width:4;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#32B44A;stroke-width:4;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#4B6CB3;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M120.16,430.01c11.16-15.07,17.39-26.74,38-33.84c7.38-2.54,18.41-3.51,31.79-2.55"/>
+<path class="st1" d="M189.95,393.62c14.35-0.37,25.58,2.3,37.02,7.67c11.45,5.38,20.89,14.89,26.2,26.37"/>
+<path class="st2" d="M335.52,425.56c13.89-17.17,35.96-30.52,64.73-29.56"/>
+<path class="st3" d="M400.25,396c11.36-1.13,22.77-1.14,31.91,5.71c6.26,4.69,17.1,16.33,19.28,23.84"/>
+<path class="st4" d="M218.77,533.57c2.79,16.72,22.73,26.59,35.63,30.15c12.9,3.56,26.51,3.77,39.86,2.78
+	c12.65-0.94,25.39-2.97,37.01-8.07s22.11-13.53,27.84-24.85"/>
+</svg>
+
+      </div>
+      
+      <!-- Right Column -->
+
+      <div class="col-sm-10">
+
+        <!-- Sections in right column -->
+      
+        <section id="a1"><a name="a1"></a> A1
+          <section id="a1a"> A1A
+            
+              <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#E72727;stroke-width:4;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#F89A42;stroke-width:4;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FBEE20;stroke-width:4;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#35B44A;stroke-width:4;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#4B6CB4;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M169.9,343.59c1.6-7.2,2.55-9.33,9.91-15.77c4.79-4.19,12.87-5.76,16.29-6.54c7.71-1.76,16.22-2.48,24.13-2.56"
+	/>
+<path class="st1" d="M220.23,318.73c7.83-0.16,7.77-0.42,15.43,1.22c2.21,0.48,12.27,4.3,17.15,7.69
+	c4.99,3.46,12.44,12.05,13.34,15.95"/>
+<path class="st2" d="M339.65,343.59c1.6-7.2,2.55-9.33,9.91-15.77c4.79-4.19,12.87-5.76,16.29-6.54c7.71-1.76,16.22-2.48,24.13-2.56
+	"/>
+<path class="st3" d="M389.98,318.73c7.83-0.16,7.77-0.42,15.43,1.22c2.21,0.48,12.27,4.3,17.15,7.69
+	c4.99,3.46,12.44,12.05,13.34,15.95"/>
+<path class="st4" d="M293,480.82c10.02,2.47,20.61,2.26,30.69,0.09c26.08-5.61,51.57-27.02,61.31-51.86
+	c-0.77,1.96-45.72,0.48-50.26,0.38c-16.46-0.36-32.92-0.46-49.38-0.32c-8.13,0.07-16.25,0.2-24.38,0.39
+	c-4.63,0.11-24.17,0.27-24.17,0.27c-2.58,11.35,12.45,26.98,16.16,30.61C263.84,470.99,278.05,477.13,293,480.82z"/>
+</svg>
+
+            </section>
+          <section id="a1b"> A1B</section>
+          <section id="a1c"> A1C</section>
+        </section>
+
+        <section id="a2"><a name="a2"></a> A2
+          <section id="a2a"> A2A Add here your SVG
+            <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#E82625;stroke-width:4;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#F89A41;stroke-width:4;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FDEE1E;stroke-width:4;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#32B44A;stroke-width:4;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#4B6CB3;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M120.16,430.01c11.16-15.07,17.39-26.74,38-33.84c7.38-2.54,18.41-3.51,31.79-2.55"/>
+<path class="st1" d="M189.95,393.62c14.35-0.37,25.58,2.3,37.02,7.67c11.45,5.38,20.89,14.89,26.2,26.37"/>
+<path class="st2" d="M335.52,425.56c13.89-17.17,35.96-30.52,64.73-29.56"/>
+<path class="st3" d="M400.25,396c11.36-1.13,22.77-1.14,31.91,5.71c6.26,4.69,17.1,16.33,19.28,23.84"/>
+<path class="st4" d="M218.77,533.57c2.79,16.72,22.73,26.59,35.63,30.15c12.9,3.56,26.51,3.77,39.86,2.78
+	c12.65-0.94,25.39-2.97,37.01-8.07s22.11-13.53,27.84-24.85"/>
+</svg>
+
+            </section>
+          <section id="a2b"> A2B</section>
+          <section id="a2c"> A2C</section>
+        </section>
+
+        <section id="a3"><a name="a3"></a> A3
+          <section id="a3a"> A3A
+            
+              <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#E72727;stroke-width:4;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#F89A42;stroke-width:4;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FBEE20;stroke-width:4;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#35B44A;stroke-width:4;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#4B6CB4;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M169.9,343.59c1.6-7.2,2.55-9.33,9.91-15.77c4.79-4.19,12.87-5.76,16.29-6.54c7.71-1.76,16.22-2.48,24.13-2.56"
+	/>
+<path class="st1" d="M220.23,318.73c7.83-0.16,7.77-0.42,15.43,1.22c2.21,0.48,12.27,4.3,17.15,7.69
+	c4.99,3.46,12.44,12.05,13.34,15.95"/>
+<path class="st2" d="M339.65,343.59c1.6-7.2,2.55-9.33,9.91-15.77c4.79-4.19,12.87-5.76,16.29-6.54c7.71-1.76,16.22-2.48,24.13-2.56
+	"/>
+<path class="st3" d="M389.98,318.73c7.83-0.16,7.77-0.42,15.43,1.22c2.21,0.48,12.27,4.3,17.15,7.69
+	c4.99,3.46,12.44,12.05,13.34,15.95"/>
+<path class="st4" d="M293,480.82c10.02,2.47,20.61,2.26,30.69,0.09c26.08-5.61,51.57-27.02,61.31-51.86
+	c-0.77,1.96-45.72,0.48-50.26,0.38c-16.46-0.36-32.92-0.46-49.38-0.32c-8.13,0.07-16.25,0.2-24.38,0.39
+	c-4.63,0.11-24.17,0.27-24.17,0.27c-2.58,11.35,12.45,26.98,16.16,30.61C263.84,470.99,278.05,477.13,293,480.82z"/>
+</svg>
+
+            
+            </section>
+          <section id="a3b"> A3B</section>
+          <section id="a3c"> A3C</section>
+        </section>
+          
+          <scrpt src="javaScriptCode/p5_test.js"></scrpt>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+

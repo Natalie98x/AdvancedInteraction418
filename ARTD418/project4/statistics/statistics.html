@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    
+    <body style="background-color:black;"></body>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: Avenir Next, sans-serif;
+text-align: left;
+    color: white;
+    width: 100%;
+
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: dimgray;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: black;
+  color: white;
+}
+
+.content {
+  padding: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 75px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+font-size: 30px;
+    font-family: American Typewriter;
+}
+       
+</style>
+</head>
+<body>
+    
+
+<div id="navbar" style="width: 100%";>
+  <a href="../project4.html">Home</a>
+  <a class="active" href="statistics.html">Statistics</a>
+  <a href="../contact/contact.html">Contact</a>
+  <a href="/project4/imageSequence/aboutmexico.html">About Mexico</a>
+</div>
+    
+<img src="Images/marlon-michelle-corado-DbL2_B_oInc-unsplash.jpg" style="width: inherit;">
+      <div class="bottom-left">Tuxtla Gutiérrez, Chiapas, Mexico</div>
+    <div class="content">
+  <h1 style="font-size: 30px;  color: white; font-family: American Typerwriter, monospace; width: 60%; padding-top: 140px;"> Statistics</h1>
+  <p style="width: 42%; padding-bottom: 100px; opacity: 50%;">In 2008, 18.2 percent of the population in Mexico was in poverty meaning they could not buy adequate food for their families even if they used their entire income. An analysis done by CONEVAL found that the states with the highest percentages of food poverty were Chiapas, Guerrero and Oaxaca.
+ </p>
+        
+</div>
+<img src="Screen%20Shot%202020-04-22%20at%2012.47.54%20PM.png" style="padding-left: 350px; width: 400px; height: 400px; padding bottom: 100px;">
+
+<p style="width: 100%; opacity: 75%; padding-left: 300px;">The following information was found on the Word Atlas site. 
+       <a href="https://www.worldatlas.com/articles/the-poorest-states-in-mexico.html" target="_blank" style="padding-bottom: 200px; color: olivedrab;">Click</a> to learn more
+        </p> 
+
+    <div class="content">
+  <h1 style="font-size: 30px;  color: white; font-family: American Typerwriter, monospace; width: 60%; padding-top: 140px;"> Hunger</h1>
+  <p style="width: 42%; padding-bottom: 50px; opacity: 50%;"> In the chart below, the minimum level of dietary energy consumption (also referred to as prevalence of undernourishment) shows the percentage of the population whose food intake is insufficient to meet dietary energy requirements continuously. The data shows the annual change of poverty from the previous year before. For the years 2013-2016, the annual change has been at a constant decrease of -0.20% in Mexico. This conveys how there have been awareness brought to the hunger issue in Mexico, but it has been held at a constant rate for the past years. In order to help make this number be better, people can help to fight hunger in Mexico. 
+ </p>
+        
+</div>
+<img src="Screen%20Shot%202020-05-06%20at%2012.26.37%20PM.png" style="padding-left: 350px; width: 400px; height: 400px; padding-top: 25px;">
+    
+<p style="width: 100%; opacity: 75%; padding-left: 300px;">The following information was found on the Macrotrends site. 
+       <a href="https://www.macrotrends.net/countries/MEX/mexico/hunger-statistics" target="_blank" style="padding-bottom: 200px; color: olivedrab;">Click</a> to learn more
+        </p> 
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
